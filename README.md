@@ -1,4 +1,3 @@
 # FINE3300-2026-A1
 FINE 3300 Assignment 1 - Python for Finance
-
-This includes the full project 
+ExhangeRates.py is the part one of the assignment, while ExchangeRatesAI.py is the vibecode
