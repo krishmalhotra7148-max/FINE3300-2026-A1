@@ -28,5 +28,5 @@ if __name__ == "__main__":
    
     result = lebron.convert(amount, from_cur, to_cur)
 
-print(f"{amount:,.2f} {from_cur} = {result:,.2f} {to_cur}")
+print(f"${amount:,.2f} {from_cur} = ${result:,.2f} {to_cur}")
       
