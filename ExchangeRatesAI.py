@@ -75,7 +75,7 @@ def main():
         print("Please enter USD or CAD.")
 
     result = rates.convert(amount, from_cur, to_cur)
-    print(f"$\n{amount:,.2f} {from_cur} = ${result:,.2f} {to_cur}")
+    print(f"\n${amount:,.2f} {from_cur} = ${result:,.2f} {to_cur}")
 
 
 if __name__ == "__main__":
