@@ -3,9 +3,9 @@ import csv
 class ExchangeRates:
     def __init__(self, filename):
         # Open the CSV file containing the exchange rates
-        with open(filename) as lebron_file:
+        with open(filename) as rate_file:
             # Read each row as a dictionary using the column names
-            reader = csv.DictReader(lebron_file)
+            reader = csv.DictReader(rate_file)
             # Go through each row in the CSV file
             for row in reader:
                 # Store the exchange rate, updating it each row and the final value is the most recent rate
@@ -38,4 +38,3 @@ if __name__ == "__main__":
     result = lebron.convert(amount, from_cur, to_cur)
 # Display the conversion result with two decimal places
 print(f"${amount:,.2f} {from_cur} = ${result:,.2f} {to_cur}")
-      
